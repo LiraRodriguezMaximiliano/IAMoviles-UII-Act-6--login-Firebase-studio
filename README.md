@@ -14,6 +14,76 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+# Prompt
+1. Configuración General
+Lenguaje: Dart.
+
+Framework: Flutter (Solo material.dart, sin dependencias externas).
+
+Identidad Visual: Negocio "LALA".
+
+Paleta de Colores:
+
+Fondo: Colors.white (#FFFFFF).
+
+Botones: Colors.red (#FF0000).
+
+AppBar / Iconos: Colors.lightBlue (#87CEEB).
+
+Acentos / Footer: Guinda (#800020).
+
+2. Pantalla Principal (main.dart)
+Layout: Fondo blanco.
+
+Componente Central:
+
+Container con un título centrado que diga "LALA".
+
+Incluir un Icono representativo a la izquierda del texto.
+
+Interacción:
+
+Botón 1: Texto "Iniciar Sesión", estilo redondeado, color rojo. Navega a insesion.dart.
+
+Botón 2: Texto "Registrarse", estilo redondeado, color rojo. Navega a registro.dart.
+
+3. Registro (registro.dart)
+Campos de Entrada (TextFields):
+
+Nombre de usuario.
+
+Correo electrónico.
+
+Contraseña.
+
+Confirmar contraseña.
+
+Acción:
+
+Botón rojo "Registrarse".
+
+Lógica: Implementar persistencia de datos simulada o manual (clase estática/singleton) para manejar el Local Storage sin librerías externas.
+
+Navegación Inferior:
+
+Texto clickable: "¿Ya tienes cuenta? Inicia Sesión". Al presionar, redirigir a insesion.dart.
+
+4. Inicio de Sesión (insesion.dart)
+Campos de Entrada:
+
+Correo electrónico.
+
+Contraseña.
+
+Acción:
+
+Botón rojo "Iniciar Sesión".
+
+Validación: Contrastar los datos ingresados con los guardados previamente en el almacenamiento local simulado.
+
+Navegación Inferior:
+
+Texto clickable: "¿No tienes cuenta? Regístrate". Al presionar, redirigir a registro.dart.
 
 # imagenes
 <img width="1239" height="782" alt="image" src="https://github.com/user-attachments/assets/4db812a0-c221-4a20-92d1-8556e2a5455f" />
